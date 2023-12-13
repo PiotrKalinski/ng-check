@@ -1,0 +1,41 @@
+/* app.component.scss */
+
+/* Reset margins and padding for a clean look */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General card styling */
+.mat-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+}
+
+/* List styling */
+.mat-list-base .mat-list-item {
+  border-top: 1px solid #e0e0e0;  
+  padding: 12px 16px;
+}
+
+.mat-list-base .mat-list-item:first-child {
+  border-top: none;
+}
+
+/* Hover effect for list items */
+.mat-list-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Typography */
+h3 {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 4px; /* Space between title and notes */
+}
+
+span {
+  font-size: 0.85em;
+  color: #666;
+}
